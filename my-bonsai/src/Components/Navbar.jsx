@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Select } from '@chakra-ui/react';
-import { Button } from '@chakra-ui/react';
+import { Button, Heading } from '@chakra-ui/react';
 import {Box} from "@chakra-ui/react";
 import {
     Menu,
@@ -10,14 +10,17 @@ import {
     
     Image,
   } from '@chakra-ui/react';
+
+  import { Input } from '@chakra-ui/react'
   
-  
+  import { Link } from "react-router-dom"
 function Navbar() {
   return (
     <body>
         <div>
         <Box display="flex" marginLeft={30} marginTop={30} color="grey" fontFamily="Amerigo-bt roman opt',sans-serif" >
-            <img src="https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5e5fd7c602ca7cd432feb68e_bonsai-logo.svg" alt=""  />
+     <Link to={"/"}>
+     <img src="https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5e5fd7c602ca7cd432feb68e_bonsai-logo.svg" alt=""  /></Link>
               
            <Box marginLeft={40} >
            <Menu>
@@ -110,13 +113,19 @@ function Navbar() {
            </Box>
 
                 <Box marginLeft={80}>
-                <Button color="#00b289" backgroundColor="white" padding={5} _hover="white" ><a href="./Login.jsx" >Log In</a></Button>
+                <Link to="/login">
+                <Button color="#00b289" _hover={{backgroundColor:"#00b289", color:"white"}}    border=" 1px solid #00b289" colorScheme="white" variant="outline" padding={5} >
+                 Login
+                </Button>
+                </Link>
                 
                 <Button backgroundColor="#00b289" _hover="#00b289" color="white" width={150} >Start Free</Button>
                 </Box>
         </Box>
         
     </div>
+
+    
     </body>
   )
 }
