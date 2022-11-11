@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Select } from '@chakra-ui/react';
-import { Button, Heading } from '@chakra-ui/react';
+import { Button } from '@chakra-ui/react';
 import {Box} from "@chakra-ui/react";
 import {
     Menu,
@@ -11,7 +11,7 @@ import {
     Image,
   } from '@chakra-ui/react';
 
-  import { Input } from '@chakra-ui/react'
+
   
   import { Link } from "react-router-dom"
 function Navbar() {
