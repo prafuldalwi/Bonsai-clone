@@ -7,7 +7,6 @@ import {
     MenuButton,
     MenuList,
     MenuItem,
-    
     Image,
   } from '@chakra-ui/react';
 
@@ -121,7 +120,7 @@ function Navbar() {
 
                 <Box marginLeft={80}>
                 <Link to="/login">
-                <Button color="#00b289" _hover={{backgroundColor:"#00b289", color:"white"}}    border=" 1px solid #00b289" colorScheme="white" variant="outline" padding={5} >
+                <Button  color="#00b289" _hover={{backgroundColor:"#00b289", color:"white"}}    border=" 1px solid #00b289" colorScheme="white" variant="outline" padding={5} >
                  Login
                 </Button>
                 </Link>
