@@ -1,6 +1,7 @@
 import { Box , Input, Heading, Button} from '@chakra-ui/react'
 import React from 'react'
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
+import { Container } from '@chakra-ui/react'
 
 const Homepage = () => {
   return (
@@ -122,11 +123,33 @@ Create your own customized forms and questionnaires for clients and kicking off 
              <Heading fontSize={30}>Built for Global Businesses</Heading>
              <Box marginTop={3}>Bonsai has international coverage <br /> across the United States, Canada, UK, <br /> Australia and more, with 180 currencies <br /> supported.</Box>
           </Box>
-
-          <Box>
-            <Heading marginTop={55} textAlign="center" fontSize={35}>Don't just take it from us.</Heading>
           </Box>
-          </Box>
+      </div>
+      <div>
+        <Box>
+        <Heading marginTop={55} textAlign="center" fontSize={35}>Don't just take it from us.</Heading>
+        </Box>
+        <Container marginTop={50} marginLeft={100} boxShadow="rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px"  height={300}>
+          <img src="https://moz.com/community/q/assets/uploads/profile/46368-profileavatar-1619580488060.png" alt="" />
+        "For all my Freelancer / Small Agency followers, I wish I’d discovered @bonsaiinc long ago - great templated contract" <br />
+          David Mihm <br />
+          Founder of TidingsCo
+        </Container>
+        <Container marginTop={-300} marginRight={100} boxShadow="rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px"  height={300}>
+          <img height={200} width={200} src="https://pbs.twimg.com/profile_images/1347666169738768386/f2IU7gcc_400x400.jpg" alt="" />
+          "@bonsaiinc is probably my all time favorite freelance tool. hands down. the team is super responsive and  questions."<br />
+            David Urbinati <br />
+            Motion design / animation
+        </Container>
+      </div>
+      <div>
+        <Box marginTop={200}  borderRadius={30}  backgroundColor="#f2faff" width={900} height={190} padding={30} marginLeft={60}>
+        <Container>
+         <Heading> It’s your business. <br />     
+          We’re here to help it grow.</Heading>
+          <Button marginTop={-50} marginLeft={550} backgroundColor="#00b289" _hover="#00b289" color="white" width={100}>Start Free</Button>
+        </Container>
+        </Box>
       </div>
     </div>
     </>
