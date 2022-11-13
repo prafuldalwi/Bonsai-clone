@@ -150,7 +150,64 @@ Create your own customized forms and questionnaires for clients and kicking off 
           <Button marginTop={-50} marginLeft={550} backgroundColor="#00b289" _hover="#00b289" color="white" width={100}>Start Free</Button>
         </Container>
         </Box>
+
+
+        {/* Footer */}
+
+
       </div>
+      <Box marginTop={20} color="grey">
+      <div>
+       <Box marginTop={30} marginLeft={300}>
+       <Heading fontSize={20} marginBlock={10}>
+            PRODUCTS
+        </Heading>
+        <Box>
+        Proposals <br />
+Contracts <br />
+Invoicing <br />
+Client CRM <br />
+Time Tracking <br />
+Task Tracking <br />
+Forms <br />
+Accounting <br />
+Bonsai Tax<br /> 
+Bonsai Cash<br />
+Pricing<br />
+Bonsai Reviewss<br />
+        </Box>
+       </Box>
+        <div>
+            <Box marginTop={-390} marginLeft={600}>
+                <Heading fontSize={20} marginBlock={10}>FREE RESOURCES</Heading>
+                <Box>
+                Freelance Resources <br />
+                Freelance Blog by Bonsai <br />
+                How to Write a Contract <br />
+                Online Signature Maker <br />
+                Self-Employed Taxes Hub <br />
+                Self-Employed Tax Calculator <br />
+                Self-Employed Tax Deductions <br />
+                </Box>
+            </Box>
+        </div>
+        <div>
+          <Box marginTop={-275} marginLeft={900}>
+            <Heading fontSize={20} marginBlock={10}>BONSAI</Heading>
+            <Box>About <br />
+              Careers <br />
+              Support <br />
+              LinkedIn <br />
+              Twitter <br />
+              Privacy policy <br />
+              Legal <br />
+              Affiliates <br />
+              Write for Us <br />
+             </Box>
+          </Box>
+        </div>
+    </div>
+      </Box>
     </div>
     </>
   )

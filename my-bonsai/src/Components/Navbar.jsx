@@ -107,9 +107,16 @@ function Navbar() {
                 </MenuList>
                 </Menu>
 
-                <Button border="transparent" backgroundColor="white"><a href="./Pricing.jsx">Pricing</a></Button>
-
-                <Button border="transparent" backgroundColor="white"><a href="./Reviews.jsx">Reviews</a></Button>
+                <Link to="/pricing">
+                <Button border="transparent" backgroundColor="white">
+                  Pricing
+                  </Button>
+                </Link>
+                <Link to="/reviews">
+                <Button border="transparent" backgroundColor="white">
+                  Reviews
+                  </Button>
+                </Link>
            </Box>
 
                 <Box marginLeft={80}>
